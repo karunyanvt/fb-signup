@@ -1,0 +1,159 @@
+roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+body{
+  background-color: #f0f2f5;
+  margin: 0%;
+}
+.main_div{
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.logo_div{
+  display: flex;
+  justify-content: center;
+}
+#logo{
+  font-family:"Roboto", sans-serif;
+  color: #0866ff;
+  font-size: 55px;
+  /* font-weight:730; */
+  margin: 0%;
+  padding: 25px;
+}
+
+.form_div{
+  margin: 0px 550px;
+  background-color: white;
+  /* display: flex; */
+  /* justify-content: center; */
+  border-radius: 10px;
+}
+
+h2{
+  padding-top:10px;
+  margin: 0px;
+  text-align: center;
+  font-family: "Roboto", sans-serif ;
+  letter-spacing: 1.3px;
+  
+}
+p{
+  margin: 0px;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif ;
+  color: #606770;
+}
+hr{
+  margin: 0px;
+}
+
+/* .inputs_div{
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+
+} */
+
+.half_width, .fw, .quatwidth{
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+.namebox{
+
+  width: 44%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+
+.fullwidth{
+
+  width: 93%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.DOB{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quatwidth{
+  width: 28%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 10px ;
+}
+.quatwidth2{
+  display: flex;
+  justify-content:space-between;
+  width: 28%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 10px ;
+  margin-bottom: 0px;
+}
+.gender{
+  padding-top: 7.5px;
+  margin: 0px 10px;
+}
+
+.small_div{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+small{
+  font-family: "Roboto", sans-serif ;
+  font-size: 11px;
+  color: #777;
+
+}
+
+a{
+  text-decoration: none;
+  color: #385898;
+}
+
+.submit_div{
+  display: flex;
+  justify-content:center;
+}
+#signup_btn{
+  margin: 10px;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #00a400;
+  color: white;
+  font-weight:bold;
+  font-size: large;
+
+}
+
+.old_account_div{
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+#old_acc{
+  font-size: 17px;
+  font-family: "Roboto", sans-serif ;
+  color: #1877f2;
+
+}
